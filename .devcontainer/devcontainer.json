@@ -14,7 +14,7 @@
             "type": "volume"
         },
         {
-            "source": "${localEnv:HOME}/.ssh",
+            "source": "${localEnv:USERPROFILE}/.ssh",
             "target": "/home/${remoteUser}/.ssh",
             "type": "bind"
         },
